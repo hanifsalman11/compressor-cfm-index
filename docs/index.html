@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CFMCompressorIndex — Air Compressor CFM @ 90 PSI, Tank Size & Tool Calculator (2026)</title>
+  <meta name="description" content="Calculate exact air compressor SCFM @ 90 PSI, Boyle's Law tank drawdown time, and HP sizing for HVLP paint guns, DA sanders, impact wrenches, sandblasters, and plasma cutters.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/compressor-cfm-index/">
+  <link rel="alternate" type="application/rss+xml" title="CFMCompressorIndex RSS Feed" href="https://hanifsalman11.github.io/compressor-cfm-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-yellow-500 text-slate-950 px-2 py-0.5 rounded font-black">CFM</span>CompressorIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=Two%2BStage%2BAir%2BCompressor%2B60%2BGallon%2B80%2BGallon%2BUltra%2BQuiet%2BShop&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop High-CFM Air Compressors on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">Air Compressor CFM, Tank Gallon & Pneumatic Tool Database</h1>
+      <p class="text-slate-400 mt-3 text-base sm:text-lg">Select any pneumatic air tool or compressor model below to calculate continuous SCFM @ 90 PSI, Boyle's Law tank reserve drawdown time, and required hose diameter.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search air tool or compressor (e.g. HVLP Paint Gun, DA Sander, Sandblaster, Impact Wrench, Ingersoll Rand 60 Gal...)" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-yellow-500">
+      </div>
+    </div>
+
+    <div id="cfmGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="abrasive-media-sandblasting-cabinet-14-nozzle-cfm-compressor-size-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-yellow-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-yellow-500 text-slate-950 px-2.5 py-0.5 rounded">18.5 CFM @ 90 PSI</span>
+            <span class="text-xs text-slate-400">Min: 80 Gal (7.5 HP)</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-yellow-400 transition">Abrasive Media Sandblasting Cabinet (1/4 Nozzle) CFM & Tank Calculator</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact continuous SCFM (22.0 CFM recommended), tank drawdown reserve (142s on 80 Gal), and HP sizing for Abrasive Media Sandblasting Cabinet (1/4 Nozzle).</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-yellow-400">Calculate SCFM & Tank Drawdown →</span>
+        </a>
+        <a href="6-inch-dual-action-da-orbital-air-sander-cfm-compressor-size-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-yellow-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-yellow-500 text-slate-950 px-2.5 py-0.5 rounded">16.0 CFM @ 90 PSI</span>
+            <span class="text-xs text-slate-400">Min: 60 Gal (5.0 HP)</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-yellow-400 transition">6-Inch Dual-Action (DA) Orbital Air Sander CFM & Tank Calculator</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact continuous SCFM (18.0 CFM recommended), tank drawdown reserve (123s on 60 Gal), and HP sizing for 6-Inch Dual-Action (DA) Orbital Air Sander.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-yellow-400">Calculate SCFM & Tank Drawdown →</span>
+        </a>
+        <a href="hvlp-automotive-paint-spray-gun-cfm-compressor-size-calculator.html" class="block bg-slate-900 border border-slate-800 hover:border-yellow-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-yellow-500 text-slate-950 px-2.5 py-0.5 rounded">13.5 CFM @ 90 PSI</span>
+            <span class="text-xs text-slate-400">Min: 60 Gal (5.0 HP)</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-yellow-400 transition">HVLP Automotive Paint Spray Gun CFM & Tank Calculator</h2>
+          <p class="text-xs text-slate-400 mt-2 line-clamp-2">Calculate exact continuous SCFM (14.4 CFM recommended), tank drawdown reserve (145s on 60 Gal), and HP sizing for HVLP Automotive Paint Spray Gun.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-yellow-400">Calculate SCFM & Tank Drawdown →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500">
+    <p>© 2026 CFMCompressorIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('cfmGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
