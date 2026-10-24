@@ -1,0 +1,55 @@
+name: Autonomous Air Compressor CFM & Pneumatic Sizing Engine
+
+on:
+  schedule:
+    - cron: '12 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      custom_tool:
+        description: 'Optional Air Tool or Compressor Model (e.g. HVLP Paint Spray Gun)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+jobs:
+  generate-cfm-calculators:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build CFM Calculators & Ping Search Engines
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          PAGES_PER_RUN: '3'
+          CUSTOM_TOOL: ${{ github.event.inputs.custom_tool || '' }}
+        run: |
+          python engine/cfm_builder.py
+
+      - name: Commit & Push to Trigger GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ data/published_tools.json
+          if git diff --staged --quiet; then
+            echo "No new compressor CFM pages to commit."
+          else
+            git commit -m "chore(cfm): auto-publish new air compressor CFM & tank calculators"
+            git push origin main
+          fi
