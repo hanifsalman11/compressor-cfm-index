@@ -118,5 +118,35 @@
     "tank_gal": 40,
     "hp": 3.5,
     "date": "2026-10-25"
+  },
+  {
+    "tool_name": "3/8-Inch Automotive Air Ratchet Wrench",
+    "slug": "38-inch-automotive-air-ratchet-wrench-cfm-compressor-size-calculator",
+    "title": "3/8-Inch Automotive Air Ratchet Wrench CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (1.4 CFM recommended), tank drawdown reserve (145s on 20 Gal), and HP sizing for 3/8-Inch Automotive Air Ratchet Wrench.",
+    "cfm": 4.5,
+    "tank_gal": 20,
+    "hp": 1.5,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "Framing & Roofing Pneumatic Nail Gun Set",
+    "slug": "framing-roofing-pneumatic-nail-gun-set-cfm-compressor-size-calculator",
+    "title": "Framing & Roofing Pneumatic Nail Gun Set CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (1.4 CFM recommended), tank drawdown reserve (103s on 10 Gal), and HP sizing for Framing & Roofing Pneumatic Nail Gun Set.",
+    "cfm": 3.2,
+    "tank_gal": 10,
+    "hp": 1.5,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "Pneumatic Drywall Texture Hopper Gun",
+    "slug": "pneumatic-drywall-texture-hopper-gun-cfm-compressor-size-calculator",
+    "title": "Pneumatic Drywall Texture Hopper Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (6.5 CFM recommended), tank drawdown reserve (141s on 30 Gal), and HP sizing for Pneumatic Drywall Texture Hopper Gun.",
+    "cfm": 7.0,
+    "tank_gal": 30,
+    "hp": 2.5,
+    "date": "2026-10-25"
   }
 ]
