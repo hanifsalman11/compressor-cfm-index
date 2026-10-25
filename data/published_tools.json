@@ -58,5 +58,35 @@
     "tank_gal": 60,
     "hp": 5.0,
     "date": "2026-10-25"
+  },
+  {
+    "tool_name": "3-Inch Pneumatic Cut-Off Wheel Tool",
+    "slug": "3-inch-pneumatic-cut-off-wheel-tool-cfm-compressor-size-calculator",
+    "title": "3-Inch Pneumatic Cut-Off Wheel Tool CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.6 CFM recommended), tank drawdown reserve (151s on 60 Gal), and HP sizing for 3-Inch Pneumatic Cut-Off Wheel Tool.",
+    "cfm": 13.0,
+    "tank_gal": 60,
+    "hp": 5.0,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "Pneumatic Long-Board Inline Straight Sander",
+    "slug": "pneumatic-long-board-inline-straight-sander-cfm-compressor-size-calculator",
+    "title": "Pneumatic Long-Board Inline Straight Sander CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (15.4 CFM recommended), tank drawdown reserve (135s on 60 Gal), and HP sizing for Pneumatic Long-Board Inline Straight Sander.",
+    "cfm": 14.5,
+    "tank_gal": 60,
+    "hp": 5.0,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "LVLP (Low Volume Low Pressure) Paint Spray Gun",
+    "slug": "lvlp-low-volume-low-pressure-paint-spray-gun-cfm-compressor-size-calculator",
+    "title": "LVLP (Low Volume Low Pressure) Paint Spray Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (7.5 CFM recommended), tank drawdown reserve (131s on 30 Gal), and HP sizing for LVLP (Low Volume Low Pressure) Paint Spray Gun.",
+    "cfm": 7.5,
+    "tank_gal": 30,
+    "hp": 2.5,
+    "date": "2026-10-25"
   }
 ]
