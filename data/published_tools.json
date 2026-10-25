@@ -28,5 +28,35 @@
     "tank_gal": 80,
     "hp": 7.5,
     "date": "2026-10-24"
+  },
+  {
+    "tool_name": "1/2-Inch Heavy-Duty Pneumatic Impact Wrench",
+    "slug": "12-inch-heavy-duty-pneumatic-impact-wrench-cfm-compressor-size-calculator",
+    "title": "1/2-Inch Heavy-Duty Pneumatic Impact Wrench CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (1.8 CFM recommended), tank drawdown reserve (155s on 26 Gal), and HP sizing for 1/2-Inch Heavy-Duty Pneumatic Impact Wrench.",
+    "cfm": 5.5,
+    "tank_gal": 26,
+    "hp": 2.0,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "CNC & Handheld Air Plasma Cutter (45A–65A)",
+    "slug": "cnc-handheld-air-plasma-cutter-45a65a-cfm-compressor-size-calculator",
+    "title": "CNC & Handheld Air Plasma Cutter (45A–65A) CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (6.5 CFM recommended), tank drawdown reserve (302s on 60 Gal), and HP sizing for CNC & Handheld Air Plasma Cutter (45A–65A).",
+    "cfm": 6.5,
+    "tank_gal": 60,
+    "hp": 3.5,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "1/4-Inch High-Speed Pneumatic Die Grinder",
+    "slug": "14-inch-high-speed-pneumatic-die-grinder-cfm-compressor-size-calculator",
+    "title": "1/4-Inch High-Speed Pneumatic Die Grinder CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (12.2 CFM recommended), tank drawdown reserve (140s on 60 Gal), and HP sizing for 1/4-Inch High-Speed Pneumatic Die Grinder.",
+    "cfm": 14.0,
+    "tank_gal": 60,
+    "hp": 5.0,
+    "date": "2026-10-25"
   }
 ]
