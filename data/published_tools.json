@@ -88,5 +88,35 @@
     "tank_gal": 30,
     "hp": 2.5,
     "date": "2026-10-25"
+  },
+  {
+    "tool_name": "3/4-Inch Semi-Truck Heavy Impact Wrench",
+    "slug": "34-inch-semi-truck-heavy-impact-wrench-cfm-compressor-size-calculator",
+    "title": "3/4-Inch Semi-Truck Heavy Impact Wrench CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (4.1 CFM recommended), tank drawdown reserve (178s on 60 Gal), and HP sizing for 3/4-Inch Semi-Truck Heavy Impact Wrench.",
+    "cfm": 11.0,
+    "tank_gal": 60,
+    "hp": 3.5,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "Pneumatic Air Hammer & Chisel Scaler",
+    "slug": "pneumatic-air-hammer-chisel-scaler-cfm-compressor-size-calculator",
+    "title": "Pneumatic Air Hammer & Chisel Scaler CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (5.2 CFM recommended), tank drawdown reserve (116s on 30 Gal), and HP sizing for Pneumatic Air Hammer & Chisel Scaler.",
+    "cfm": 8.5,
+    "tank_gal": 30,
+    "hp": 3.0,
+    "date": "2026-10-25"
+  },
+  {
+    "tool_name": "Pneumatic Needle Scaler Rust Remover",
+    "slug": "pneumatic-needle-scaler-rust-remover-cfm-compressor-size-calculator",
+    "title": "Pneumatic Needle Scaler Rust Remover CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (8.5 CFM recommended), tank drawdown reserve (145s on 40 Gal), and HP sizing for Pneumatic Needle Scaler Rust Remover.",
+    "cfm": 9.0,
+    "tank_gal": 40,
+    "hp": 3.5,
+    "date": "2026-10-25"
   }
 ]
