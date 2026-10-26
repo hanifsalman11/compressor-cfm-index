@@ -178,5 +178,35 @@
     "tank_gal": 30,
     "hp": 2.5,
     "date": "2026-10-26"
+  },
+  {
+    "tool_name": "Tornador Car Detailing Interior Cleaning Gun",
+    "slug": "tornador-car-detailing-interior-cleaning-gun-cfm-compressor-size-calculator",
+    "title": "Tornador Car Detailing Interior Cleaning Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (6.1 CFM recommended), tank drawdown reserve (151s on 30 Gal), and HP sizing for Tornador Car Detailing Interior Cleaning Gun.",
+    "cfm": 6.5,
+    "tank_gal": 30,
+    "hp": 2.5,
+    "date": "2026-10-26"
+  },
+  {
+    "tool_name": "Ingersoll Rand SS5L5 60-Gallon 5HP Compressor",
+    "slug": "ingersoll-rand-ss5l5-60-gallon-5hp-compressor-cfm-compressor-size-calculator",
+    "title": "Ingersoll Rand SS5L5 60-Gallon 5HP Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (22.6 CFM recommended), tank drawdown reserve (108s on 60 Gal), and HP sizing for Ingersoll Rand SS5L5 60-Gallon 5HP Compressor.",
+    "cfm": 18.1,
+    "tank_gal": 60,
+    "hp": 5.0,
+    "date": "2026-10-26"
+  },
+  {
+    "tool_name": "Ingersoll Rand 2475N7.5 80-Gallon 7.5HP Two-Stage",
+    "slug": "ingersoll-rand-2475n75-80-gallon-75hp-two-stage-cfm-compressor-size-calculator",
+    "title": "Ingersoll Rand 2475N7.5 80-Gallon 7.5HP Two-Stage CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (30.0 CFM recommended), tank drawdown reserve (109s on 80 Gal), and HP sizing for Ingersoll Rand 2475N7.5 80-Gallon 7.5HP Two-Stage.",
+    "cfm": 24.0,
+    "tank_gal": 80,
+    "hp": 7.5,
+    "date": "2026-10-26"
   }
 ]
