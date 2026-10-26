@@ -208,5 +208,35 @@
     "tank_gal": 80,
     "hp": 7.5,
     "date": "2026-10-26"
+  },
+  {
+    "tool_name": "Quincy QT-54 60-Gallon 5HP Two-Stage Compressor",
+    "slug": "quincy-qt-54-60-gallon-5hp-two-stage-compressor-cfm-compressor-size-calculator",
+    "title": "Quincy QT-54 60-Gallon 5HP Two-Stage Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (19.0 CFM recommended), tank drawdown reserve (129s on 60 Gal), and HP sizing for Quincy QT-54 60-Gallon 5HP Two-Stage Compressor.",
+    "cfm": 15.2,
+    "tank_gal": 60,
+    "hp": 5.0,
+    "date": "2026-10-26"
+  },
+  {
+    "tool_name": "California Air Tools 8010A 8-Gallon Ultra-Quiet",
+    "slug": "california-air-tools-8010a-8-gallon-ultra-quiet-cfm-compressor-size-calculator",
+    "title": "California Air Tools 8010A 8-Gallon Ultra-Quiet CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (1.9 CFM recommended), tank drawdown reserve (120s on 8 Gal), and HP sizing for California Air Tools 8010A 8-Gallon Ultra-Quiet.",
+    "cfm": 2.2,
+    "tank_gal": 8,
+    "hp": 1.0,
+    "date": "2026-10-26"
+  },
+  {
+    "tool_name": "California Air Tools 20020AD 20-Gallon 2HP Quiet",
+    "slug": "california-air-tools-20020ad-20-gallon-2hp-quiet-cfm-compressor-size-calculator",
+    "title": "California Air Tools 20020AD 20-Gallon 2HP Quiet CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (5.2 CFM recommended), tank drawdown reserve (123s on 20 Gal), and HP sizing for California Air Tools 20020AD 20-Gallon 2HP Quiet.",
+    "cfm": 5.3,
+    "tank_gal": 20,
+    "hp": 2.0,
+    "date": "2026-10-26"
   }
 ]
