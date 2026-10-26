@@ -148,5 +148,35 @@
     "tank_gal": 30,
     "hp": 2.5,
     "date": "2026-10-25"
+  },
+  {
+    "tool_name": "1-Inch Commercial Tire Shop Impact Wrench",
+    "slug": "1-inch-commercial-tire-shop-impact-wrench-cfm-compressor-size-calculator",
+    "title": "1-Inch Commercial Tire Shop Impact Wrench CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (7.2 CFM recommended), tank drawdown reserve (159s on 80 Gal), and HP sizing for 1-Inch Commercial Tire Shop Impact Wrench.",
+    "cfm": 16.5,
+    "tank_gal": 80,
+    "hp": 5.0,
+    "date": "2026-10-26"
+  },
+  {
+    "tool_name": "Pneumatic Air Belt Sander (3/8 x 13 Inch)",
+    "slug": "pneumatic-air-belt-sander-38-x-13-inch-cfm-compressor-size-calculator",
+    "title": "Pneumatic Air Belt Sander (3/8 x 13 Inch) CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.0 CFM recommended), tank drawdown reserve (114s on 40 Gal), and HP sizing for Pneumatic Air Belt Sander (3/8 x 13 Inch).",
+    "cfm": 11.5,
+    "tank_gal": 40,
+    "hp": 3.5,
+    "date": "2026-10-26"
+  },
+  {
+    "tool_name": "Automotive Undercoating & Bedliner Spray Gun",
+    "slug": "automotive-undercoating-bedliner-spray-gun-cfm-compressor-size-calculator",
+    "title": "Automotive Undercoating & Bedliner Spray Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (7.0 CFM recommended), tank drawdown reserve (123s on 30 Gal), and HP sizing for Automotive Undercoating & Bedliner Spray Gun.",
+    "cfm": 8.0,
+    "tank_gal": 30,
+    "hp": 2.5,
+    "date": "2026-10-26"
   }
 ]
