@@ -328,5 +328,35 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-10-27"
+  },
+  {
+    "tool_name": "Framing Nailer",
+    "slug": "framing-nailer-cfm-compressor-size-calculator",
+    "title": "Framing Nailer CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Framing Nailer.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-27"
+  },
+  {
+    "tool_name": "Plasma Cutter",
+    "slug": "plasma-cutter-cfm-compressor-size-calculator",
+    "title": "Plasma Cutter CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Plasma Cutter.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-27"
+  },
+  {
+    "tool_name": "Impact Wrench",
+    "slug": "impact-wrench-cfm-compressor-size-calculator",
+    "title": "Impact Wrench CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Impact Wrench.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-27"
   }
 ]
