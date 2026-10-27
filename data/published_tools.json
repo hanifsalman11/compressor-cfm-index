@@ -298,5 +298,35 @@
     "tank_gal": 60,
     "hp": 4.0,
     "date": "2026-10-27"
+  },
+  {
+    "tool_name": "Air Tools",
+    "slug": "air-tools-cfm-compressor-size-calculator",
+    "title": "Air Tools CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Air Tools.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-27"
+  },
+  {
+    "tool_name": "Sandblasting",
+    "slug": "sandblasting-cfm-compressor-size-calculator",
+    "title": "Sandblasting CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Sandblasting.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-27"
+  },
+  {
+    "tool_name": "Paint Sprayer",
+    "slug": "paint-sprayer-cfm-compressor-size-calculator",
+    "title": "Paint Sprayer CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Paint Sprayer.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-27"
   }
 ]
