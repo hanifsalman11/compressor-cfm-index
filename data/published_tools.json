@@ -388,5 +388,35 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-10-28"
+  },
+  {
+    "tool_name": "Painting Cars",
+    "slug": "painting-cars-cfm-compressor-size-calculator",
+    "title": "Painting Cars CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Painting Cars.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-28"
+  },
+  {
+    "tool_name": "Air Compressor   At Different Pressures",
+    "slug": "air-compressor-at-different-pressures-cfm-compressor-size-calculator",
+    "title": "Air Compressor   At Different Pressures CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Air Compressor   At Different Pressures.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-28"
+  },
+  {
+    "tool_name": "Air Compressor",
+    "slug": "air-compressor-cfm-compressor-size-calculator",
+    "title": "Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Air Compressor.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-28"
   }
 ]
