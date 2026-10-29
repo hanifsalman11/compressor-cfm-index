@@ -448,5 +448,35 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-10-28"
+  },
+  {
+    "tool_name": "What Is A Good   Air Compressor",
+    "slug": "what-is-a-good-air-compressor-cfm-compressor-size-calculator",
+    "title": "What Is A Good   Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for What Is A Good   Air Compressor.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-29"
+  },
+  {
+    "tool_name": "What Determines The  Of An Air Compressor",
+    "slug": "what-determines-the-of-an-air-compressor-cfm-compressor-size-calculator",
+    "title": "What Determines The  Of An Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for What Determines The  Of An Air Compressor.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-29"
+  },
+  {
+    "tool_name": "Bathroom Fan",
+    "slug": "bathroom-fan-cfm-compressor-size-calculator",
+    "title": "Bathroom Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Bathroom Fan.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-29"
   }
 ]
