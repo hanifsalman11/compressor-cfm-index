@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bathroom Exhaust Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+  <meta name="description" content="Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Bathroom Exhaust Fan.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/compressor-cfm-index/bathroom-exhaust-fan-cfm-compressor-size-calculator.html">
+  <meta property="og:title" content="Bathroom Exhaust Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)">
+  <meta property="og:description" content="Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Bathroom Exhaust Fan.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/compressor-cfm-index/bathroom-exhaust-fan-cfm-compressor-size-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Bathroom Exhaust Fan Air Compressor CFM & Tank Sizing Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many CFM and what size tank do I need for Bathroom Exhaust Fan?", "acceptedAnswer": {"@type": "Answer", "text": "The Bathroom Exhaust Fan draws 11.5 CFM continuously (8.6 CFM at a 75% work cycle). To prevent waiting for the tank to pump up, use a 60-gallon (3.7 HP) compressor delivering at least 10.8 CFM at 90 PSI."}}, {"@type": "Question", "name": "How long will a 60-gallon tank run Bathroom Exhaust Fan before dropping below 90 PSI?", "acceptedAnswer": {"@type": "Answer", "text": "By Boyle's Law, a 60-gallon tank dropping from 150 PSI to 90 PSI releases 32.7 cubic feet of free air. Without the motor running, that reserve alone powers a 11.5 CFM load for 171 seconds\u2014after which your compressor pump motor must keep pace with the 8.6 CFM demand."}}, {"@type": "Question", "name": "Why does my Bathroom Exhaust Fan lose power after 15 seconds even when the tank gauge reads 120 PSI?", "acceptedAnswer": {"@type": "Answer", "text": "That is caused by restrictive 1/4-inch hoses and standard 1/4\" industrial M-style quick-disconnects, which bottleneck airflow to ~6\u20138 CFM. Switching to 3/8-Inch ID Hybrid Polymer hose and 1/4\" High-Flow V-Style (or 3/8\" body) couplers restores full torque and RPM."}}]}]}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-yellow-500 text-slate-950 px-2 py-0.5 rounded font-black">CFM</span>CompressorIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=Two%2BStage%2BAir%2BCompressor%2B60%2BGallon%2B80%2BGallon%2BUltra%2BQuiet%2BShop&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop High-CFM Air Compressors on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-yellow-500 text-slate-950 px-3 py-1 rounded-full">11.5 CFM @ 90 PSI</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">Min Compressor: 10.8 CFM (3.7 HP)</span>
+        <span class="text-xs font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full">Tank: 60 Gal | Hose: 3/8-Inch ID Hybrid Polymer</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Bathroom Exhaust Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</h1>
+      <div class="mt-4 bg-slate-900 border-l-4 border-yellow-500 p-4 rounded-r-xl text-sm text-slate-200 leading-relaxed">
+        <strong>CAGI Pneumatic Engineering Verdict:</strong> Operating at full trigger, the Bathroom Exhaust Fan consumes 11.5 SCFM at 90 PSI (75% typical duty cycle = 8.6 average CFM). Applying the compressed-air engineering 1.25x safety margin so your pump does not exceed a 70% duty cycle, pair this setup with at least a 3.7 HP (60-Gallon) air compressor rated for 10.8+ CFM @ 90 PSI and plumbed with 3/8-Inch ID Hybrid Polymer air hose.
+      </div>
+    </div>
+
+    <!-- INTERACTIVE CFM, BOYLE'S LAW TANK DRAWDOWN & HP SIZING CALCULATOR -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive Bathroom Exhaust Fan CFM & Tank Drawdown Calculator</h2>
+      <p class="text-xs text-slate-400 mb-6">Adjust your tool's continuous CFM draw, trigger duty cycle, tank size (gallons), and cut-out pressure to compute required compressor SCFM and Boyle's Law tank reserve time.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="cfmSlider" class="text-slate-300">Tool Continuous Air Consumption (CFM @ 90 PSI)</label>
+              <span class="text-yellow-400 font-bold"><span id="cfmVal">11.5</span> CFM</span>
+            </div>
+            <input id="cfmSlider" type="range" min="1.5" max="30.0" step="0.5" value="11.5" class="w-full accent-yellow-500 cursor-pointer">
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="dutySlider" class="text-slate-300">Trigger Duty Cycle (% Active Spraying/Grinding)</label>
+              <span class="text-yellow-400 font-bold"><span id="dutyVal">75</span>%</span>
+            </div>
+            <input id="dutySlider" type="range" min="15" max="100" step="5" value="75" class="w-full accent-yellow-500 cursor-pointer">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label for="tankSelect" class="block text-xs font-medium text-slate-400 mb-1">Receiver Tank Size</label>
+              <select id="tankSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-yellow-500">
+                <option value="8" >8 Gallon Portable</option>
+                <option value="20" >20 Gallon Vertical</option>
+                <option value="30" >30 Gallon Shop</option>
+                <option value="60" selected>60 Gallon Stationary</option>
+                <option value="80" >80 Gallon Two-Stage</option>
+              </select>
+            </div>
+            <div>
+              <label for="psiSelect" class="block text-xs font-medium text-slate-400 mb-1">Max Tank Cut-Out PSI</label>
+              <select id="psiSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-yellow-500">
+                <option value="135">135 PSI (Single-Stage)</option>
+                <option value="155" selected>155 PSI (Pro Single-Stage)</option>
+                <option value="175">175 PSI (Two-Stage Cast Iron)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-950 border border-yellow-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-yellow-400 font-bold">Min Compressor Rating</span>
+            <div class="text-2xl sm:text-3xl font-black text-white mt-1"><span id="reqCfmOut">10.8</span> <span class="text-sm font-normal text-slate-400">CFM</span></div>
+            <p id="hpOut" class="text-xs text-yellow-400 font-semibold mt-1">Need 3.7 HP Compressor</p>
+          </div>
+
+          <div class="bg-slate-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">Tank Reserve Buffer</span>
+            <div class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1"><span id="drawdownSecOut">45</span> <span class="text-sm font-normal text-slate-400">sec</span></div>
+            <p id="cuftOut" class="text-xs text-slate-400 mt-1">Before Dropping Below 90 PSI</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-yellow-950/40 border border-yellow-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="cfmAdviceBanner" class="text-sm text-yellow-100 font-medium"></div>
+        <a id="dynamicCompBtn" href="https://www.amazon.com/s?k=Two%2BStage%2BAir%2BCompressor%2B60%2BGallon%2B80%2BGallon%2BUltra%2BQuiet%2BShop&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched Air Compressor on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <!-- 4-CARD HARDWARE BUNDLE -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Recommended Compressor, Air Dryer & Hose Setup for Bathroom Exhaust Fan</h2>
+        <span class="text-xs text-slate-400">CAGI & ASME Tank Rated</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">60-Gal / 3.7 HP Compressor</span>
+              <span class="text-sm font-bold text-emerald-400">$399 - $1,899</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">60-Gallon 3.7 HP High-CFM Shop Air Compressor (10.8+ CFM @ 90 PSI)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Provides 32.7 cubic feet of pressurized reserve air between 150 PSI cut-out and 90 PSI cut-in.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=60+Gallon+3.7+HP+Air+Compressor+Two+Stage+Quiet&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">3-Stage Desiccant Dryer</span>
+              <span class="text-sm font-bold text-emerald-400">$89 - $249</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">1/2" NPT 3-Stage Industrial Air Drying System (Water Separator, 0.01μm Coalescing & Desiccant Dryer)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 High-CFM compression heats air and condenses gallons of water; a 3-stage dryer prevents moisture fisheyes in paint and internal tool rust.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=1%2F2+NPT+3+Stage+Air+Drying+System+Desiccant+Dryer+Regulator&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">3/8-Inch ID Hybrid Polymer Reel</span>
+              <span class="text-sm font-bold text-emerald-400">$74 - $169</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">50ft Auto-Rewind Retractable 3/8-Inch ID Hybrid Polymer Air Hose Reel + Milton V-Style High-Flow Fittings</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Standard 1/4" hoses and M-style fittings choke flow by up to 18 PSI under a 11.5 CFM load; V-style high-flow couplers eliminate pressure drop.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=50ft+Retractable+Air+Hose+Reel+3%2F8+1%2F2+Hybrid+Milton+V+Style+High+Flow&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">Pneumatic Tool & Lube</span>
+              <span class="text-sm font-bold text-emerald-400">$69 - $389</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">Pro-Grade Bathroom Exhaust Fan & Pneumatic Air Tool Oil Maintenance Kit</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Engineered for 90 PSI dynamic dynamic pressure with low-vibration ergonomic housing.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=Bathroom+Exhaust+Fan+Pneumatic+Air+Tool&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <!-- TANK SIZE & DRAWDOWN MATRIX TABLE -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">Bathroom Exhaust Fan Tank Gallon Reserve & Continuous Run Matrix</h2>
+      <div class="overflow-x-auto bg-slate-900 border border-slate-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-950/60 text-slate-400 uppercase text-xs">
+              <th class="py-3.5 px-4">Compressor Tank & HP</th>
+              <th class="py-3.5 px-4">Typical Output (@90 PSI)</th>
+              <th class="py-3.5 px-4 text-yellow-400">Usable Air (150→90 PSI)</th>
+              <th class="py-3.5 px-4 text-emerald-400">Tank-Only Buffer Time</th>
+              <th class="py-3.5 px-4">Shop Workflow Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">8 Gallon (1.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~2.5 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">4.4 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">23 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">⚠️ Pauses Every ~23s</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">20 Gallon (2.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~5.3 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">10.9 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">57 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">⚠️ Pauses Every ~57s</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">30 Gallon (3.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~9.5 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">16.4 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">86 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">60 Gallon (5.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~16.5 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">32.7 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">171 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">80 Gallon (7.5 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~24.0 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">43.7 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">228 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">120 Gallon (10.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~35.0 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">65.5 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">342 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SHOP CHECKLIST -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">High-Flow Pneumatic Plumbing & Moisture Checklist</h2>
+        <span id="cfmBadge" class="text-xs font-bold bg-slate-800 text-yellow-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 1:</strong> Measure dynamic pressure right at the tool inlet with the trigger pulled: a 50ft 1/4" hose drops pressure by 15–22 PSI at 11.5 CFM. Upgrade to 3/8-Inch ID Hybrid Polymer hose and High-Flow V-Style couplers.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 2:</strong> Mount your coalescing water trap and desiccant dryer at least 20 to 25 feet downstream from the compressor pump (via copper or aluminum air piping) so hot compressed air cools and condenses before reaching the filter.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 3:</strong> Size your compressor's continuous CFM @ 90 PSI rating at 1.25x your tool's average CFM consumption; running a single-stage pump 100% continuously overheats reed valves and piston rings.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 4:</strong> Install an automatic electronic timed tank drain valve at the bottom of your receiver tank to purge condensed water every 30 minutes of operation.</span>
+        </label></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (Bathroom Exhaust Fan)</h2>
+      <div class="space-y-4"><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How many CFM and what size tank do I need for Bathroom Exhaust Fan?</h3><p class='text-sm text-slate-300 leading-relaxed'>The Bathroom Exhaust Fan draws 11.5 CFM continuously (8.6 CFM at a 75% work cycle). To prevent waiting for the tank to pump up, use a 60-gallon (3.7 HP) compressor delivering at least 10.8 CFM at 90 PSI.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How long will a 60-gallon tank run Bathroom Exhaust Fan before dropping below 90 PSI?</h3><p class='text-sm text-slate-300 leading-relaxed'>By Boyle's Law, a 60-gallon tank dropping from 150 PSI to 90 PSI releases 32.7 cubic feet of free air. Without the motor running, that reserve alone powers a 11.5 CFM load for 171 seconds—after which your compressor pump motor must keep pace with the 8.6 CFM demand.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>Why does my Bathroom Exhaust Fan lose power after 15 seconds even when the tank gauge reads 120 PSI?</h3><p class='text-sm text-slate-300 leading-relaxed'>That is caused by restrictive 1/4-inch hoses and standard 1/4" industrial M-style quick-disconnects, which bottleneck airflow to ~6–8 CFM. Switching to 3/8-Inch ID Hybrid Polymer hose and 1/4" High-Flow V-Style (or 3/8" body) couplers restores full torque and RPM.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 px-4">
+    <p>© 2026 CFMCompressorIndex. Independent Compressed Air & Pneumatic Sizing Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const cfmSlider = document.getElementById('cfmSlider');
+    const dutySlider = document.getElementById('dutySlider');
+    const tankSelect = document.getElementById('tankSelect');
+    const psiSelect = document.getElementById('psiSelect');
+    const cfmVal = document.getElementById('cfmVal');
+    const dutyVal = document.getElementById('dutyVal');
+    const reqCfmOut = document.getElementById('reqCfmOut');
+    const hpOut = document.getElementById('hpOut');
+    const drawdownSecOut = document.getElementById('drawdownSecOut');
+    const cuftOut = document.getElementById('cuftOut');
+    const cfmAdviceBanner = document.getElementById('cfmAdviceBanner');
+    const dynamicCompBtn = document.getElementById('dynamicCompBtn');
+
+    function recalculateCfm() {
+      const toolCfm = parseFloat(cfmSlider.value);
+      const duty = parseInt(dutySlider.value, 10) / 100.0;
+      const gals = parseInt(tankSelect.value, 10);
+      const maxPsi = parseInt(psiSelect.value, 10);
+
+      cfmVal.textContent = toolCfm.toFixed(1);
+      dutyVal.textContent = Math.round(duty * 100);
+
+      const avgCfm = toolCfm * duty;
+      const safeCompressorCfm = avgCfm * 1.25;
+
+      const tankCuFt = gals * 0.133681;
+      const usableCuFt = tankCuFt * ((maxPsi - 90.0) / 14.7);
+      const bufferSecs = Math.round((usableCuFt / Math.max(0.5, toolCfm)) * 60.0);
+
+      let estHp = "1.5 HP";
+      let recTankTier = "20 Gallon";
+      if (safeCompressorCfm <= 4.0) {
+        estHp = "1.5 HP";
+        recTankTier = "20 Gallon";
+      } else if (safeCompressorCfm <= 6.5) {
+        estHp = "2.0 HP";
+        recTankTier = "30 Gallon";
+      } else if (safeCompressorCfm <= 11.5) {
+        estHp = "3.7 HP";
+        recTankTier = "60 Gallon";
+      } else if (safeCompressorCfm <= 17.5) {
+        estHp = "5.0 HP Two-Stage";
+        recTankTier = "60 Gallon";
+      } else {
+        estHp = "7.5 HP Two-Stage";
+        recTankTier = "80 Gallon";
+      }
+
+      reqCfmOut.textContent = safeCompressorCfm.toFixed(1);
+      hpOut.textContent = `Match: ${estHp} (${recTankTier})`;
+      drawdownSecOut.textContent = bufferSecs;
+      cuftOut.textContent = `${usableCuFt.toFixed(1)} cu. ft. Reserve (${maxPsi}→90 PSI)`;
+
+      cfmAdviceBanner.innerHTML = `💨 <strong>CAGI Sizing Spec:</strong> With a 1.25x duty-cycle safety factor, you need <strong>${safeCompressorCfm.toFixed(1)} SCFM @ 90 PSI</strong>. Install a <strong>${recTankTier} ${estHp} Air Compressor</strong> with a 3-stage desiccant dryer.`;
+      dynamicCompBtn.href = `https://${amzDomain}/s?k=${encodeURIComponent(recTankTier)}+${encodeURIComponent(estHp)}+Air+Compressor&tag=${amzTag}`;
+    }
+
+    cfmSlider.addEventListener('input', recalculateCfm);
+    dutySlider.addEventListener('input', recalculateCfm);
+    tankSelect.addEventListener('change', recalculateCfm);
+    psiSelect.addEventListener('change', recalculateCfm);
+    recalculateCfm();
+
+    const checks = document.querySelectorAll('.cfm-check');
+    const badge = document.getElementById('cfmBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>

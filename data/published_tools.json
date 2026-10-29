@@ -478,5 +478,35 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-10-29"
+  },
+  {
+    "tool_name": "Bathroom Exhaust Fan",
+    "slug": "bathroom-exhaust-fan-cfm-compressor-size-calculator",
+    "title": "Bathroom Exhaust Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Bathroom Exhaust Fan.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-29"
+  },
+  {
+    "tool_name": "Range Hood",
+    "slug": "range-hood-cfm-compressor-size-calculator",
+    "title": "Range Hood CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Range Hood.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-29"
+  },
+  {
+    "tool_name": "3 Ton Ac",
+    "slug": "3-ton-ac-cfm-compressor-size-calculator",
+    "title": "3 Ton Ac CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 3 Ton Ac.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-29"
   }
 ]

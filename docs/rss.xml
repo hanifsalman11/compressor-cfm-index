@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/compressor-cfm-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>3 Ton Ac CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/3-ton-ac-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/3-ton-ac-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 3 Ton Ac.</description>
+    </item>
+    <item>
+      <title>Range Hood CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/range-hood-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/range-hood-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Range Hood.</description>
+    </item>
+    <item>
+      <title>Bathroom Exhaust Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/bathroom-exhaust-fan-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/bathroom-exhaust-fan-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Bathroom Exhaust Fan.</description>
+    </item>
+    <item>
       <title>Bathroom Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/compressor-cfm-index/bathroom-fan-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/bathroom-fan-cfm-compressor-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/compressor-cfm-index/quincy-qt-54-60-gallon-5hp-two-stage-compressor-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/quincy-qt-54-60-gallon-5hp-two-stage-compressor-cfm-compressor-size-calculator.html</guid>
       <description>Calculate exact continuous SCFM (19.0 CFM recommended), tank drawdown reserve (129s on 60 Gal), and HP sizing for Quincy QT-54 60-Gallon 5HP Two-Stage Compressor.</description>
-    </item>
-    <item>
-      <title>Ingersoll Rand 2475N7.5 80-Gallon 7.5HP Two-Stage CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/ingersoll-rand-2475n75-80-gallon-75hp-two-stage-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/ingersoll-rand-2475n75-80-gallon-75hp-two-stage-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (30.0 CFM recommended), tank drawdown reserve (109s on 80 Gal), and HP sizing for Ingersoll Rand 2475N7.5 80-Gallon 7.5HP Two-Stage.</description>
-    </item>
-    <item>
-      <title>Ingersoll Rand SS5L5 60-Gallon 5HP Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/ingersoll-rand-ss5l5-60-gallon-5hp-compressor-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/ingersoll-rand-ss5l5-60-gallon-5hp-compressor-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (22.6 CFM recommended), tank drawdown reserve (108s on 60 Gal), and HP sizing for Ingersoll Rand SS5L5 60-Gallon 5HP Compressor.</description>
-    </item>
-    <item>
-      <title>Tornador Car Detailing Interior Cleaning Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/tornador-car-detailing-interior-cleaning-gun-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/tornador-car-detailing-interior-cleaning-gun-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (6.1 CFM recommended), tank drawdown reserve (151s on 30 Gal), and HP sizing for Tornador Car Detailing Interior Cleaning Gun.</description>
     </item>
   </channel>
 </rss>
