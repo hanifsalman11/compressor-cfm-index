@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/compressor-cfm-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>1 Inch Impact CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/1-inch-impact-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/1-inch-impact-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 1 Inch Impact.</description>
+    </item>
+    <item>
+      <title>Air Hammer CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/air-hammer-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/air-hammer-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Air Hammer.</description>
+    </item>
+    <item>
+      <title>Careers CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/careers-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/careers-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Careers.</description>
+    </item>
+    <item>
       <title>Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/compressor-cfm-index/compressor-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/compressor-cfm-compressor-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/compressor-cfm-index/air-tools-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/air-tools-cfm-compressor-size-calculator.html</guid>
       <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Air Tools.</description>
-    </item>
-    <item>
-      <title>Eastwood Elite QST 30/60 Scroll Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/eastwood-elite-qst-3060-scroll-air-compressor-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/eastwood-elite-qst-3060-scroll-air-compressor-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (15.9 CFM recommended), tank drawdown reserve (154s on 60 Gal), and HP sizing for Eastwood Elite QST 30/60 Scroll Air Compressor.</description>
-    </item>
-    <item>
-      <title>Campbell Hausfeld XC802100 80-Gallon Two-Stage CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/campbell-hausfeld-xc802100-80-gallon-two-stage-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/campbell-hausfeld-xc802100-80-gallon-two-stage-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (15.8 CFM recommended), tank drawdown reserve (187s on 80 Gal), and HP sizing for Campbell Hausfeld XC802100 80-Gallon Two-Stage.</description>
-    </item>
-    <item>
-      <title>McGraw 29-Gallon 2HP 165 PSI Oil-Lube Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/mcgraw-29-gallon-2hp-165-psi-oil-lube-compressor-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/mcgraw-29-gallon-2hp-165-psi-oil-lube-compressor-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (5.5 CFM recommended), tank drawdown reserve (161s on 29 Gal), and HP sizing for McGraw 29-Gallon 2HP 165 PSI Oil-Lube Compressor.</description>
     </item>
   </channel>
 </rss>
