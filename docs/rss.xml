@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/compressor-cfm-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/compressor-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/compressor-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Compressor.</description>
+    </item>
+    <item>
+      <title>1/2 Impact CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/12-impact-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/12-impact-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 1/2 Impact.</description>
+    </item>
+    <item>
+      <title>3.5 Ton Ac CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/35-ton-ac-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/35-ton-ac-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 3.5 Ton Ac.</description>
+    </item>
+    <item>
       <title>Attic Fan CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/compressor-cfm-index/attic-fan-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/attic-fan-cfm-compressor-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/compressor-cfm-index/mcgraw-29-gallon-2hp-165-psi-oil-lube-compressor-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/mcgraw-29-gallon-2hp-165-psi-oil-lube-compressor-cfm-compressor-size-calculator.html</guid>
       <description>Calculate exact continuous SCFM (5.5 CFM recommended), tank drawdown reserve (161s on 29 Gal), and HP sizing for McGraw 29-Gallon 2HP 165 PSI Oil-Lube Compressor.</description>
-    </item>
-    <item>
-      <title>Fortress 27-Gallon 200 PSI High-Performance Vertical CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/fortress-27-gallon-200-psi-high-performance-vertical-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/fortress-27-gallon-200-psi-high-performance-vertical-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (4.8 CFM recommended), tank drawdown reserve (173s on 27 Gal), and HP sizing for Fortress 27-Gallon 200 PSI High-Performance Vertical.</description>
-    </item>
-    <item>
-      <title>DeWalt DXCM601 60-Gallon 3.7HP Vertical Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/dewalt-dxcm601-60-gallon-37hp-vertical-compressor-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/dewalt-dxcm601-60-gallon-37hp-vertical-compressor-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (12.2 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for DeWalt DXCM601 60-Gallon 3.7HP Vertical Compressor.</description>
-    </item>
-    <item>
-      <title>DeWalt DXCMV5048055 80-Gallon 5HP Two-Stage CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/dewalt-dxcmv5048055-80-gallon-5hp-two-stage-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/dewalt-dxcmv5048055-80-gallon-5hp-two-stage-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (21.2 CFM recommended), tank drawdown reserve (154s on 80 Gal), and HP sizing for DeWalt DXCMV5048055 80-Gallon 5HP Two-Stage.</description>
     </item>
   </channel>
 </rss>
