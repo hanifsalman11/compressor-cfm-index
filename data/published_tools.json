@@ -598,5 +598,35 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-10-30"
+  },
+  {
+    "tool_name": "Investor Relations",
+    "slug": "investor-relations-cfm-compressor-size-calculator",
+    "title": "Investor Relations CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Investor Relations.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-30"
+  },
+  {
+    "tool_name": "Stock",
+    "slug": "stock-cfm-compressor-size-calculator",
+    "title": "Stock CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Stock.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-30"
+  },
+  {
+    "tool_name": "Impact",
+    "slug": "impact-cfm-compressor-size-calculator",
+    "title": "Impact CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Impact.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-10-30"
   }
 ]
