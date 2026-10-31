@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/compressor-cfm-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Des Moines CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/des-moines-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/des-moines-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Des Moines.</description>
+    </item>
+    <item>
+      <title>Locations CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/locations-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/locations-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Locations.</description>
+    </item>
+    <item>
+      <title>4000 Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/4000-air-compressor-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/4000-air-compressor-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 4000 Air Compressor.</description>
+    </item>
+    <item>
       <title>Air Compressor Parts CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/compressor-cfm-index/air-compressor-parts-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/air-compressor-parts-cfm-compressor-size-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/compressor-cfm-index/nail-gun-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/nail-gun-cfm-compressor-size-calculator.html</guid>
       <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Nail Gun.</description>
-    </item>
-    <item>
-      <title>Hvlp Spray Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/hvlp-spray-gun-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/hvlp-spray-gun-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Hvlp Spray Gun.</description>
-    </item>
-    <item>
-      <title>Impact Wrench CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/impact-wrench-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/impact-wrench-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Impact Wrench.</description>
-    </item>
-    <item>
-      <title>Plasma Cutter CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/plasma-cutter-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/plasma-cutter-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Plasma Cutter.</description>
     </item>
   </channel>
 </rss>
