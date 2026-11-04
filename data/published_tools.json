@@ -688,5 +688,35 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-11-03"
+  },
+  {
+    "tool_name": "Sprinkler Blowout",
+    "slug": "sprinkler-blowout-cfm-compressor-size-calculator",
+    "title": "Sprinkler Blowout CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Sprinkler Blowout.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-11-04"
+  },
+  {
+    "tool_name": "4 Ton Ac",
+    "slug": "4-ton-ac-cfm-compressor-size-calculator",
+    "title": "4 Ton Ac CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 4 Ton Ac.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-11-04"
+  },
+  {
+    "tool_name": "2.5 Ton Ac",
+    "slug": "25-ton-ac-cfm-compressor-size-calculator",
+    "title": "2.5 Ton Ac CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 2.5 Ton Ac.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-11-04"
   }
 ]
