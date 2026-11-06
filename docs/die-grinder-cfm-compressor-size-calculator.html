@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Die Grinder CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+  <meta name="description" content="Calculate exact continuous SCFM, Boyle's Law tank drawdown time, and air compressor HP/Gallon sizing for Die Grinder.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/compressor-cfm-index/die-grinder-cfm-compressor-size-calculator.html">
+  <meta property="og:title" content="Die Grinder CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)">
+  <meta property="og:description" content="Calculate exact continuous SCFM, Boyle's Law tank drawdown time, and air compressor HP/Gallon sizing for Die Grinder.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://hanifsalman11.github.io/compressor-cfm-index/die-grinder-cfm-compressor-size-calculator.html">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "SoftwareApplication", "name": "Die Grinder Air Compressor CFM & Tank Sizing Calculator", "applicationCategory": "UtilitiesApplication", "operatingSystem": "Web Browser", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How many CFM and what size compressor do I need for Die Grinder?", "acceptedAnswer": {"@type": "Answer", "text": "A standard continuous pneumatic die grinder draws 11.5 CFM @ 90 PSI. Factoring in a common 75% production duty cycle (8.63 CFM) and a mandatory 1.25x engineering safety factor, you need an air compressor producing at least 10.8 CFM @ 90 PSI. To support this delivery rate and avoid motor overheating, pair the tool with a 60-gallon tank driven by a 3.7 to 5.0 HP continuous-duty electric motor."}}, {"@type": "Question", "name": "How long will a 60-gallon air tank run Die Grinder before refilling?", "acceptedAnswer": {"@type": "Answer", "text": "Based on Boyle's Law (P1V1 = P2V2), a 60-gallon tank (8.02 cu ft) cycling between a 150 PSI cut-out and a 90 PSI cut-in provides an effective reserve volume of approximately 32.74 standard cubic feet (SCFT) of air. When powering a die grinder pulling 11.5 CFM continuously, the tank delivers approximately 171 seconds (2 minutes and 51 seconds) of full-throttle operation before the compressor pump must engage."}}, {"@type": "Question", "name": "What size air hose and fittings should I use for Die Grinder?", "acceptedAnswer": {"@type": "Answer", "text": "Use a minimum 3/8-inch inner diameter (ID) air hose for runs up to 50 feet, or a 1/2-inch ID hose for runs exceeding 50 feet, to avoid excessive friction loss. Additionally, replace restrictive standard 1/4-inch industrial (I/M) couplers with Milton V-style high-flow fittings, which increase air delivery by up to 70% and prevent dynamic pressure drop at the tool's motor inlet."}}]}]}</script>
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased min-h-screen flex flex-col">
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-30">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <a href="index.html" class="text-lg font-black tracking-tight text-white flex items-center gap-2">
+        <span class="bg-yellow-500 text-slate-950 px-2 py-0.5 rounded font-black">CFM</span>CompressorIndex
+      </a>
+      <a href="https://www.amazon.com/s?k=Two%2BStage%2BAir%2BCompressor%2B60%2BGallon%2B80%2BGallon%2BUltra%2BQuiet%2BShop&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop High-CFM Air Compressors on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-10 flex-1 w-full">
+    <div class="mb-8">
+      <div class="flex flex-wrap items-center gap-2.5 mb-3">
+        <span class="text-xs font-extrabold uppercase tracking-widest bg-yellow-500 text-slate-950 px-3 py-1 rounded-full">11.5 CFM @ 90 PSI</span>
+        <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">Min Compressor: 10.8 CFM (3.7 HP)</span>
+        <span class="text-xs font-semibold bg-slate-800 text-slate-300 px-3 py-1 rounded-full">Tank: 60 Gal | Hose: 3/8-Inch or 1/2-Inch ID</span>
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">Die Grinder CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</h1>
+      <div class="mt-4 bg-slate-900 border-l-4 border-yellow-500 p-4 rounded-r-xl text-sm text-slate-200 leading-relaxed">
+        <strong>CAGI Pneumatic Engineering Verdict:</strong> Under continuous full-load grinding, an industrial pneumatic die grinder demands 11.5 CFM @ 90 PSI, translating to an effective 8.63 CFM requirement at a typical 75% duty cycle. Incorporating a mandatory CAGI 1.25x engineering safety factor establishes a baseline compressor output of 10.8 CFM @ 90 PSI to prevent thermal overload and pump short-cycling. Consequently, pairing this tool with a minimum 60-gallon ASME pressure vessel powered by a 3.7 to 5.0 HP motor ensures stable dynamic pressure and continuous production without RPM starvation.
+      </div>
+    </div>
+
+    <!-- INTERACTIVE CFM, BOYLE'S LAW TANK DRAWDOWN & HP SIZING CALCULATOR -->
+    <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 mb-12 shadow-2xl">
+      <h2 class="text-xl font-extrabold text-white mb-2">Interactive Die Grinder CFM & Tank Drawdown Calculator</h2>
+      <p class="text-xs text-slate-400 mb-6">Adjust your tool's continuous CFM draw, trigger duty cycle, tank size (gallons), and cut-out pressure to compute required compressor SCFM and Boyle's Law tank reserve time.</p>
+
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div class="space-y-5">
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="cfmSlider" class="text-slate-300">Tool Continuous Air Consumption (CFM @ 90 PSI)</label>
+              <span class="text-yellow-400 font-bold"><span id="cfmVal">11.5</span> CFM</span>
+            </div>
+            <input id="cfmSlider" type="range" min="1.5" max="30.0" step="0.5" value="11.5" class="w-full accent-yellow-500 cursor-pointer">
+          </div>
+
+          <div>
+            <div class="flex justify-between text-sm font-medium mb-1.5">
+              <label for="dutySlider" class="text-slate-300">Trigger Duty Cycle (% Active Spraying/Grinding)</label>
+              <span class="text-yellow-400 font-bold"><span id="dutyVal">75</span>%</span>
+            </div>
+            <input id="dutySlider" type="range" min="15" max="100" step="5" value="75" class="w-full accent-yellow-500 cursor-pointer">
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label for="tankSelect" class="block text-xs font-medium text-slate-400 mb-1">Receiver Tank Size</label>
+              <select id="tankSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-yellow-500">
+                <option value="8" >8 Gallon Portable</option>
+                <option value="20" >20 Gallon Vertical</option>
+                <option value="30" >30 Gallon Shop</option>
+                <option value="60" selected>60 Gallon Stationary</option>
+                <option value="80" >80 Gallon Two-Stage</option>
+              </select>
+            </div>
+            <div>
+              <label for="psiSelect" class="block text-xs font-medium text-slate-400 mb-1">Max Tank Cut-Out PSI</label>
+              <select id="psiSelect" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:border-yellow-500">
+                <option value="135">135 PSI (Single-Stage)</option>
+                <option value="155" selected>155 PSI (Pro Single-Stage)</option>
+                <option value="175">175 PSI (Two-Stage Cast Iron)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-950 border border-yellow-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-yellow-400 font-bold">Min Compressor Rating</span>
+            <div class="text-2xl sm:text-3xl font-black text-white mt-1"><span id="reqCfmOut">10.8</span> <span class="text-sm font-normal text-slate-400">CFM</span></div>
+            <p id="hpOut" class="text-xs text-yellow-400 font-semibold mt-1">Need 3.7 HP Compressor</p>
+          </div>
+
+          <div class="bg-slate-950 border border-emerald-500/30 rounded-xl p-4">
+            <span class="text-xs uppercase text-emerald-400 font-bold">Tank Reserve Buffer</span>
+            <div class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1"><span id="drawdownSecOut">45</span> <span class="text-sm font-normal text-slate-400">sec</span></div>
+            <p id="cuftOut" class="text-xs text-slate-400 mt-1">Before Dropping Below 90 PSI</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 bg-yellow-950/40 border border-yellow-500/30 rounded-xl p-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div id="cfmAdviceBanner" class="text-sm text-yellow-100 font-medium"></div>
+        <a id="dynamicCompBtn" href="https://www.amazon.com/s?k=Two%2BStage%2BAir%2BCompressor%2B60%2BGallon%2B80%2BGallon%2BUltra%2BQuiet%2BShop&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="shrink-0 bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold px-4 py-2.5 rounded-lg text-xs uppercase tracking-wider transition">
+          Shop Matched Air Compressor on Amazon →
+        </a>
+      </div>
+    </section>
+
+    <!-- 4-CARD HARDWARE BUNDLE -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">Recommended Compressor, Air Dryer & Hose Setup for Die Grinder</h2>
+        <span class="text-xs text-slate-400">CAGI & ASME Tank Rated</span>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">Matched Air Compressor</span>
+              <span class="text-sm font-bold text-emerald-400">$899 - $1,899</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">60-Gallon 3.7 HP Two-Stage Cast Iron Stationary Air Compressor</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Delivers 11.5 to 13.5 CFM @ 90 PSI with a 175 PSI maximum cutoff pressure to keep pace with sustained 75% duty cycles.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=60+Gallon+3.7+HP+Air+Compressor&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">3-Stage Desiccant Dryer</span>
+              <span class="text-sm font-bold text-emerald-400">$89 - $249</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">1/2-Inch NPT 3-Stage Particulate, Coalescing & Desiccant Air Drying System</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Removes condensed water vapor and solid particulates down to 0.01 microns to prevent vane erosion and bearing seizure in high-speed air motors.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=1%2F2+NPT+3+Stage+Air+Dryer+Water+Separator+Compressor&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">High-Flow Hose & Couplers</span>
+              <span class="text-sm font-bold text-emerald-400">$74 - $169</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">50ft 3/8-Inch Premium Hybrid Polymer Air Hose with Milton V-Style High-Flow Couplers</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Minimizes line friction losses to preserve dynamic inlet pressure above 90 PSI during high-flow 11.5 CFM draw events.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=50ft+Retractable+Air+Hose+Reel+3%2F8+Milton+V+Style&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div>
+        <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col justify-between hover:border-yellow-500/60 transition">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 px-2.5 py-0.5 rounded">Pneumatic Tool Unit</span>
+              <span class="text-sm font-bold text-emerald-400">$79 - $389</span>
+            </div>
+            <h3 class="text-base font-bold text-white mt-2">Industrial 1/4-Inch Collet Straight Pneumatic Die Grinder (20,000+ RPM)</h3>
+            <p class="text-xs text-slate-400 mt-2 leading-relaxed">💨 Requires an uninterrupted 11.5 CFM @ 90 PSI dynamic flow to sustain rated torque and abrasive wheel surface speed under heavy contact loads.</p>
+          </div>
+          <a href="https://www.amazon.com/s?k=Die+Grinder&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="mt-5 block text-center bg-yellow-500 hover:bg-yellow-400 text-slate-950 font-extrabold py-2.5 px-4 rounded-lg text-sm transition shadow-lg">
+            Check Price on Amazon →
+          </a>
+        </div></div>
+    </section>
+
+    <!-- TANK SIZE & DRAWDOWN MATRIX TABLE -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-4">Die Grinder Tank Gallon Reserve & Continuous Run Matrix</h2>
+      <div class="overflow-x-auto bg-slate-900 border border-slate-800 rounded-xl">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-950/60 text-slate-400 uppercase text-xs">
+              <th class="py-3.5 px-4">Compressor Tank & HP</th>
+              <th class="py-3.5 px-4">Typical Output (@90 PSI)</th>
+              <th class="py-3.5 px-4 text-yellow-400">Usable Air (150→90 PSI)</th>
+              <th class="py-3.5 px-4 text-emerald-400">Tank-Only Buffer Time</th>
+              <th class="py-3.5 px-4">Shop Workflow Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">8 Gallon (1.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~2.5 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">4.4 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">23 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">⚠️ Pauses Every ~23s</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">20 Gallon (2.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~5.3 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">10.9 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">57 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">⚠️ Pauses Every ~57s</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">30 Gallon (3.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~9.5 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">16.4 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">86 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">60 Gallon (5.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~16.5 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">32.7 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">171 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">80 Gallon (7.5 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~24.0 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">43.7 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">228 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr>
+        <tr class="border-b border-slate-800 hover:bg-slate-800/40">
+          <td class="py-3 px-4 font-bold text-white">120 Gallon (10.0 HP)</td>
+          <td class="py-3 px-4 text-slate-300">~35.0 CFM @ 90 PSI</td>
+          <td class="py-3 px-4 font-bold text-yellow-400">65.5 cu. ft. Reserve</td>
+          <td class="py-3 px-4 text-emerald-400 font-semibold">342 sec Buffer</td>
+          <td class="py-3 px-4 text-xs text-slate-300">✅ Continuous Run OK</td>
+        </tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- SHOP CHECKLIST -->
+    <section class="mb-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-extrabold text-white">High-Flow Pneumatic Plumbing & Moisture Checklist</h2>
+        <span id="cfmBadge" class="text-xs font-bold bg-slate-800 text-yellow-400 px-3 py-1 rounded-full">0 / 4 Completed</span>
+      </div>
+      <div class="space-y-3">
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 1:</strong> Verify dynamic line pressure with an in-line pressure gauge installed directly at the die grinder inlet while the tool is triggered, using a minimum 3/8-inch ID whip hose to eliminate throttling.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 2:</strong> Install a dedicated 25-foot metallic cooling run between the compressor pump discharge and the primary filtration bank to cool air below 100°F and condense vapor prior to desiccant stages.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 3:</strong> Size the air compressor pump to maintain at least 1.25x the tool's duty-cycle-adjusted CFM (minimum 10.8 CFM @ 90 PSI) so the motor does not exceed its maximum rated thermal duty cycle.</span>
+        </label>
+        <label class="flex items-start gap-3.5 bg-slate-900 border border-slate-800 rounded-xl p-4 cursor-pointer hover:border-slate-700 transition">
+          <input type="checkbox" class="mt-1 w-5 h-5 accent-yellow-500 rounded cursor-pointer cfm-check">
+          <span class="text-sm text-slate-200 leading-relaxed"><strong>CAGI Step 4:</strong> Equip the base of the 60-gallon receiver tank with an automated electronic zero-loss timed solenoid drain valve to eliminate accumulated sludge and preserve effective pneumatic storage volume.</span>
+        </label></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="mb-12">
+      <h2 class="text-2xl font-extrabold text-white mb-5">Frequently Asked Questions (Die Grinder)</h2>
+      <div class="space-y-4"><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How many CFM and what size compressor do I need for Die Grinder?</h3><p class='text-sm text-slate-300 leading-relaxed'>A standard continuous pneumatic die grinder draws 11.5 CFM @ 90 PSI. Factoring in a common 75% production duty cycle (8.63 CFM) and a mandatory 1.25x engineering safety factor, you need an air compressor producing at least 10.8 CFM @ 90 PSI. To support this delivery rate and avoid motor overheating, pair the tool with a 60-gallon tank driven by a 3.7 to 5.0 HP continuous-duty electric motor.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>How long will a 60-gallon air tank run Die Grinder before refilling?</h3><p class='text-sm text-slate-300 leading-relaxed'>Based on Boyle's Law (P1V1 = P2V2), a 60-gallon tank (8.02 cu ft) cycling between a 150 PSI cut-out and a 90 PSI cut-in provides an effective reserve volume of approximately 32.74 standard cubic feet (SCFT) of air. When powering a die grinder pulling 11.5 CFM continuously, the tank delivers approximately 171 seconds (2 minutes and 51 seconds) of full-throttle operation before the compressor pump must engage.</p></div><div class='bg-slate-900 border border-slate-800 rounded-xl p-5'><h3 class='font-bold text-white text-base mb-2'>What size air hose and fittings should I use for Die Grinder?</h3><p class='text-sm text-slate-300 leading-relaxed'>Use a minimum 3/8-inch inner diameter (ID) air hose for runs up to 50 feet, or a 1/2-inch ID hose for runs exceeding 50 feet, to avoid excessive friction loss. Additionally, replace restrictive standard 1/4-inch industrial (I/M) couplers with Milton V-style high-flow fittings, which increase air delivery by up to 70% and prevent dynamic pressure drop at the tool's motor inlet.</p></div></div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-800 py-8 text-center text-xs text-slate-500 px-4">
+    <p>© 2026 CFMCompressorIndex. Independent Compressed Air & Pneumatic Sizing Database. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const amzDomain = "www.amazon.com";
+    const amzTag = "salmanrevie04-20";
+
+    const cfmSlider = document.getElementById('cfmSlider');
+    const dutySlider = document.getElementById('dutySlider');
+    const tankSelect = document.getElementById('tankSelect');
+    const psiSelect = document.getElementById('psiSelect');
+    const cfmVal = document.getElementById('cfmVal');
+    const dutyVal = document.getElementById('dutyVal');
+    const reqCfmOut = document.getElementById('reqCfmOut');
+    const hpOut = document.getElementById('hpOut');
+    const drawdownSecOut = document.getElementById('drawdownSecOut');
+    const cuftOut = document.getElementById('cuftOut');
+    const cfmAdviceBanner = document.getElementById('cfmAdviceBanner');
+    const dynamicCompBtn = document.getElementById('dynamicCompBtn');
+
+    function recalculateCfm() {
+      const toolCfm = parseFloat(cfmSlider.value);
+      const duty = parseInt(dutySlider.value, 10) / 100.0;
+      const gals = parseInt(tankSelect.value, 10);
+      const maxPsi = parseInt(psiSelect.value, 10);
+
+      cfmVal.textContent = toolCfm.toFixed(1);
+      dutyVal.textContent = Math.round(duty * 100);
+
+      const avgCfm = toolCfm * duty;
+      const safeCompressorCfm = avgCfm * 1.25;
+
+      const tankCuFt = gals * 0.133681;
+      const usableCuFt = tankCuFt * ((maxPsi - 90.0) / 14.7);
+      const bufferSecs = Math.round((usableCuFt / Math.max(0.5, toolCfm)) * 60.0);
+
+      let estHp = "1.5 HP";
+      let recTankTier = "20 Gallon";
+      if (safeCompressorCfm <= 4.0) {
+        estHp = "1.5 HP";
+        recTankTier = "20 Gallon";
+      } else if (safeCompressorCfm <= 6.5) {
+        estHp = "2.0 HP";
+        recTankTier = "30 Gallon";
+      } else if (safeCompressorCfm <= 11.5) {
+        estHp = "3.7 HP";
+        recTankTier = "60 Gallon";
+      } else if (safeCompressorCfm <= 17.5) {
+        estHp = "5.0 HP Two-Stage";
+        recTankTier = "60 Gallon";
+      } else {
+        estHp = "7.5 HP Two-Stage";
+        recTankTier = "80 Gallon";
+      }
+
+      reqCfmOut.textContent = safeCompressorCfm.toFixed(1);
+      hpOut.textContent = `Match: ${estHp} (${recTankTier})`;
+      drawdownSecOut.textContent = bufferSecs;
+      cuftOut.textContent = `${usableCuFt.toFixed(1)} cu. ft. Reserve (${maxPsi}→90 PSI)`;
+
+      cfmAdviceBanner.innerHTML = `💨 <strong>CAGI Sizing Spec:</strong> With a 1.25x duty-cycle safety factor, you need <strong>${safeCompressorCfm.toFixed(1)} SCFM @ 90 PSI</strong>. Install a <strong>${recTankTier} ${estHp} Air Compressor</strong> with a 3-stage desiccant dryer.`;
+      dynamicCompBtn.href = `https://${amzDomain}/s?k=${encodeURIComponent(recTankTier)}+${encodeURIComponent(estHp)}+Air+Compressor&tag=${amzTag}`;
+    }
+
+    cfmSlider.addEventListener('input', recalculateCfm);
+    dutySlider.addEventListener('input', recalculateCfm);
+    tankSelect.addEventListener('change', recalculateCfm);
+    psiSelect.addEventListener('change', recalculateCfm);
+    recalculateCfm();
+
+    const checks = document.querySelectorAll('.cfm-check');
+    const badge = document.getElementById('cfmBadge');
+    checks.forEach(ch => {
+      ch.addEventListener('change', () => {
+        const done = Array.from(checks).filter(c => c.checked).length;
+        badge.textContent = `${done} / ${checks.length} Completed`;
+      });
+    });
+  </script>
+</body>
+</html>
