@@ -7,6 +7,12 @@
     <atom:link href="https://hanifsalman11.github.io/compressor-cfm-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Blowing Out Sprinklers CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/compressor-cfm-index/blowing-out-sprinklers-cfm-compressor-size-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/compressor-cfm-index/blowing-out-sprinklers-cfm-compressor-size-calculator.html</guid>
+      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Blowing Out Sprinklers.</description>
+    </item>
+    <item>
       <title>3/8 Impact CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/compressor-cfm-index/38-impact-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/38-impact-cfm-compressor-size-calculator.html</guid>
@@ -179,12 +185,6 @@
       <link>https://hanifsalman11.github.io/compressor-cfm-index/what-is-a-good-air-compressor-cfm-compressor-size-calculator.html</link>
       <guid>https://hanifsalman11.github.io/compressor-cfm-index/what-is-a-good-air-compressor-cfm-compressor-size-calculator.html</guid>
       <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for What Is A Good   Air Compressor.</description>
-    </item>
-    <item>
-      <title>Much  Do I Need Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/compressor-cfm-index/much-do-i-need-air-compressor-cfm-compressor-size-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/compressor-cfm-index/much-do-i-need-air-compressor-cfm-compressor-size-calculator.html</guid>
-      <description>Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Much  Do I Need Air Compressor.</description>
     </item>
   </channel>
 </rss>
