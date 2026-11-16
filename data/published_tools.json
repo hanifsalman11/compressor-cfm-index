@@ -758,5 +758,15 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-11-11"
+  },
+  {
+    "tool_name": "185 Air Compressor",
+    "slug": "185-air-compressor-cfm-compressor-size-calculator",
+    "title": "185 Air Compressor CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for 185 Air Compressor.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-11-16"
   }
 ]
