@@ -828,5 +828,25 @@
     "tank_gal": 60,
     "hp": 3.7,
     "date": "2026-11-21"
+  },
+  {
+    "tool_name": "Small Bathroom",
+    "slug": "small-bathroom-cfm-compressor-size-calculator",
+    "title": "Small Bathroom CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Small Bathroom.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-11-26"
+  },
+  {
+    "tool_name": "Paint Gun",
+    "slug": "paint-gun-cfm-compressor-size-calculator",
+    "title": "Paint Gun CFM @ 90 PSI, Tank Size & Compressor Calculator (2026)",
+    "description": "Calculate exact continuous SCFM (10.8 CFM recommended), tank drawdown reserve (171s on 60 Gal), and HP sizing for Paint Gun.",
+    "cfm": 11.5,
+    "tank_gal": 60,
+    "hp": 3.7,
+    "date": "2026-11-26"
   }
 ]
